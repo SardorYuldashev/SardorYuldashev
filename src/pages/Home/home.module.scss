@@ -1,0 +1,44 @@
+.home {
+  background: #0c0f0f;
+  margin: 0;
+
+  &__content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+    &-item {
+      background: #7c0d0d;
+      padding: 30px 50px;
+      border-radius: 5px;
+      color: #ffffff;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      transition: .3s;
+
+      i {
+        font-size: 100px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      &:hover {
+        background: #ffffff;
+        color: #7c0d0d;
+      }
+
+      &:nth-child(2) {
+        z-index: 3;
+      }
+    }
+  }
+}

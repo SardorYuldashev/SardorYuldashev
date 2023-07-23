@@ -1,0 +1,33 @@
+import React from 'react';
+import classes from './portfolio.module.scss';
+import Info from '../../components/Info';
+import Call from '../../components/Call/Call';
+import Skills from '../../components/Skills';
+import Information from '../../components/Information';
+import Frontend from '../../components/Frontend';
+import Backend from '../../components/Backend';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Top from '../../components/Top/Top';
+
+AOS.init();
+
+const Portfolio = () => {
+  return (
+    <div className={classes['home']} >
+      <Navbar />
+      <Info />
+      <Call />
+      <Skills />
+      <Information />
+      <Frontend />
+      <Backend />
+      <Footer />
+      <Top />
+    </div>
+  );
+};
+
+export default Portfolio;
