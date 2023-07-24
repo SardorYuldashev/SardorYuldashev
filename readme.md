@@ -14,12 +14,10 @@
 
 <h3 align="center">Full-stack developer from Uzbekistan</h3>
 
-<h3 align="center">My portfolio</h3>
-
 <div align="center">
   <span align="center">
     <a href="https://sardoryuldashev.netlify.app/" target="blank">
-      <img align="center" src="https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/portfolio.webp" alt="https://www.t.me/sardor_bek_yuldashev" width="80" />
+      <img align="center" src="https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/portfolio.webp" alt="https://www.t.me/sardor_bek_yuldashev" width="200" />
     </a>
   </span>
 </div>
