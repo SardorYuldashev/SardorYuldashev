@@ -1,4 +1,4 @@
-[![Header](https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/Header.jpg)](https://sardoryuldashev.github.io/Portfolio/)
+[![Header](https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/Header.png)](https://sardoryuldashev.github.io/Portfolio/)
 
 
 <div align="center">
@@ -77,4 +77,4 @@
 
 ![Current UTC time](https://jojoee.jojoee.com/api/utcnowgif?utcnow)
 
-[![Footer](https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/footer.gif)](https://www.t.me/sardor_bek_yuldashev)
+[![Footer](https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/footer2.gif)](https://www.t.me/sardor_bek_yuldashev)
