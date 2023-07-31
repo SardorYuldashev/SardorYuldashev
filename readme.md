@@ -1,5 +1,8 @@
-[![Header](https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/Header.png)](https://sardoryuldashev.github.io/Portfolio/)
+<div align="center">
+  <img align="center" src="https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/sardor.webp" alt="header" width="800" />
+</div>
 
+<br />
 
 <div align="center">
 <p></p>
