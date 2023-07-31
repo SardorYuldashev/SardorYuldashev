@@ -77,4 +77,6 @@
 
 ![Current UTC time](https://jojoee.jojoee.com/api/utcnowgif?utcnow)
 
-[![Footer align="center"](https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/footer2.gif)](https://www.t.me/sardor_bek_yuldashev)
+<div align="center">
+  <img align="center" src="https://github.com/SardorYuldashev/SardorYuldashev/blob/master/src/assets/readme/footer2.gif" alt="footer" width="400" />
+</div>
