@@ -28,13 +28,20 @@
       transition: .3s;
 
       &:hover {
-        transform: translateX(-40px);
+        .backend__content-info {
+          transform: translateX(-40px);
+        }
+
+        .backend__content-img {
+          transform: translateX(-40px) rotateY(180deg);
+        }
       }
     }
 
     &-img {
       width: 20%;
       transform: rotateY(180deg);
+      transition: .3s;
     }
 
     &-info {
@@ -42,6 +49,7 @@
       padding: 20px 30px;
       background: #344453;
       border-radius: 10px;
+      transition: .3s;
 
       h2 {
         font-size: 30px;
@@ -60,6 +68,31 @@
 
     &-logo {
       height: 30px;
+    }
+
+    &-pagenation {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+
+    &-page {
+      background: #344453;
+      width: 40px;
+      height: 30px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      cursor: pointer;
+      transition: .3s;
+
+      &:hover {
+        background: #cc3131;
+      }
     }
   }
 }

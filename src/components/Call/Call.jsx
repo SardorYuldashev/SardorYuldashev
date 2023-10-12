@@ -1,4 +1,3 @@
-import React from 'react';
 import classes from './call.module.scss';
 import resume from '../../assets/resume.pdf';
 

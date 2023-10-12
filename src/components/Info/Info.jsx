@@ -1,4 +1,3 @@
-import React from 'react';
 import classes from './info.module.scss';
 
 const Info = () => {
@@ -66,8 +65,6 @@ const Info = () => {
             data-aos="fade-up"
             data-aos-duration="2000"
           />
-
-
         </div>
       </div>
     </div>

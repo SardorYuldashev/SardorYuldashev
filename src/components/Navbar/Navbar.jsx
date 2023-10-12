@@ -1,6 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
-import classes from './navbar.module.scss'
+import classes from './navbar.module.scss';
 
 const Navbar = () => {
   return (
@@ -15,11 +14,11 @@ const Navbar = () => {
             <p>HOME</p>
           </Link>
 
-          <a href='#frontend'
+          <a href='#pet'
             className={classes["back__content-logo"]}
           >
-            <i className="fa-solid fa-display"></i>
-            <p>FRONTEND</p>
+            <i className="fa-solid fa-clipboard-check"></i>
+            <p>PET PROJECTS</p>
           </a>
 
           <a href='#backend'
@@ -27,6 +26,13 @@ const Navbar = () => {
           >
             <i className="fa-solid fa-server"></i>
             <p>BACKEND</p>
+          </a>
+
+          <a href='#frontend'
+            className={classes["back__content-logo"]}
+          >
+            <i className="fa-solid fa-display"></i>
+            <p>FRONTEND</p>
           </a>
 
           <Link to="/about"
@@ -39,7 +45,7 @@ const Navbar = () => {
         </nav>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

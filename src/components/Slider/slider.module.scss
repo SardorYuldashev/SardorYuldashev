@@ -1,9 +1,9 @@
 .slider {
 
-  &__content {   
+  &__content {
     height: 400px;
   }
-  
+
   &__item {
     display: inline-block;
     width: 100%;
@@ -12,8 +12,8 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    background: #7c0d0d;
-    
+    // background: #7c0d0d;
+
 
     &-card {
       display: flex;
@@ -50,7 +50,7 @@
       color: #ffffff;
       text-align: center;
     }
-    
+
     &-title {
       margin-bottom: 20px;
       font-weight: 900;
@@ -58,7 +58,13 @@
     }
 
     &-text {
+      max-width: 500px;
       opacity: .7;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;
     }
   }
 }
