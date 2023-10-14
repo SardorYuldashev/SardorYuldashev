@@ -56,6 +56,14 @@ const Info = () => {
                 </a>
               </li>
 
+              <li className={classes['info__content-social-li']}>
+                <a className={classes['info__content-social-link']}
+                  href="mailto: henkook-baron@mail.ru"
+                >
+                  <i className="fa-brands fa-at"></i>
+                </a>
+              </li>
+
             </ul>
           </div>
 

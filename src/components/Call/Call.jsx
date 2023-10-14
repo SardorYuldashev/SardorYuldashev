@@ -17,7 +17,7 @@ const Call = () => {
           className={classes['call__content-phone']}
           href="tel: +998903928068"
         >
-          CONTACT
+          CONTACT WITH ME
         </a>
       </div>
     </div>

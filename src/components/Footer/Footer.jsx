@@ -2,6 +2,9 @@ import React from 'react';
 import classes from './footer.module.scss';
 import { Link } from 'react-router-dom';
 import resume from '../../assets/resume.pdf';
+import telegram from '../../assets/qr-telegram.webp';
+import instagram from '../../assets/qr-instagram.webp';
+import linkedin from '../../assets/qr-linkedin.webp';
 
 const Footer = () => {
   return (
@@ -40,10 +43,10 @@ const Footer = () => {
 
             <li className={classes['footer__content-li']}>
               <a
-                href='#frontend'
+                href='#pet'
                 className={classes['footer__content-link']}
               >
-                Frontend
+                Pet project
               </a>
             </li>
 
@@ -53,6 +56,15 @@ const Footer = () => {
                 className={classes['footer__content-link']}
               >
                 Backend
+              </a>
+            </li>
+
+            <li className={classes['footer__content-li']}>
+              <a
+                href='#frontend'
+                className={classes['footer__content-link']}
+              >
+                Frontend
               </a>
             </li>
 
@@ -111,6 +123,18 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+
+          <div className={classes['footer__content-qrCodes']}>
+            <div className={classes['footer__content-imgBox']}>
+              <img src={telegram} alt="" />
+            </div>
+            <div className={classes['footer__content-imgBox']}>
+              <img src={instagram} alt="" />
+            </div>
+            <div className={classes['footer__content-imgBox']}>
+              <img src={linkedin} alt="" />
+            </div>
+          </div>
 
         </div>
       </div>

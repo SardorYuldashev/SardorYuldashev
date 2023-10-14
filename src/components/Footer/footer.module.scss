@@ -34,11 +34,32 @@
       font-size: 30px;
       color: white;
       transition: .3s;
-      
+
       &:hover {
         color: #6871e9;
         text-shadow: 0 0 20px #000000;
         transform: translateY(-10px);
+      }
+    }
+
+    &-qrCodes {
+      display: flex;
+      gap: 15px;
+    }
+
+    &-imgBox {
+      height: 140px;
+      width: 140px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      border-radius: 15px;
+      overflow: hidden;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
       }
     }
   }
