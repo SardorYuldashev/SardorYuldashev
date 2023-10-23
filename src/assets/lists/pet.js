@@ -13,6 +13,13 @@ const pet = [
     technologies: `The project is still under development. The project uses GraphQL and ApolloClient. Database: PostgreSQL. CRUD. Implemented search and sorting.`,
     url: 'https://rooms-gql.netlify.app/'
   },
+  {
+    id: 3,
+    image: 'effectmobile.webp',
+    title: 'Effect Mobile',
+    technologies: `Task from the company Effect Mobile. Used: React.JS, Expres.JS, Knex.JS, PostgreSQL.`,
+    url: 'https://effectmobile.netlify.app/'
+  },
 ];
 
 export default pet;
