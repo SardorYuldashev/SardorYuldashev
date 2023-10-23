@@ -15,9 +15,10 @@
 
     &-item {
       padding: 20px 100px;
+      border-bottom: 2px solid white;
 
-      &:first-of-type {
-        border-bottom: 2px solid white;
+      &:last-of-type {
+        border: none;
       }
     }
 

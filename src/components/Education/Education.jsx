@@ -1,8 +1,10 @@
 import classes from './education.module.scss';
+import ilova2 from '../../assets/ilova2.webp';
 import ilova1 from '../../assets/ilova1.webp';
 import ilova from '../../assets/ilova.webp';
 import najot from '../../assets/najot.webp';
 import itexpert from '../../assets/itexpert.webp';
+import itlogiya from '../../assets/itlogiya.svg';
 
 const Education = () => {
   return (
@@ -76,6 +78,36 @@ const Education = () => {
 
             </div>
 
+            <div
+              className={classes['education__content-item']}
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
+              <div className={classes['education__content-info']}>
+                <div className={classes['education__content-left']}>
+                  <h2 className={classes['education__content-title']}>
+                    "АЙТИЛОГИЯ"
+                  </h2>
+
+                  <p className={classes['education__content-year']}>
+                    2023 <span>Minsk</span>
+                  </p>
+
+                  <p className={classes['education__content-course']}>
+                    Frontend Start
+                  </p>
+                </div>
+
+                <a href={ilova2} target='_blank' className={classes['education__content-ilova']}>
+                  <img src={ilova2} alt="" />
+                </a>
+
+                <div className={classes['education__content-imgBox']}>
+                  <img src={itlogiya} alt="itlogiya" />
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
