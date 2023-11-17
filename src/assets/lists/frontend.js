@@ -107,7 +107,7 @@ const frontend = [
   {
     id: 115,
     image: 'burger.webp',
-    title: 'Buegr',
+    title: 'Burger',
     technologies: "A hamburger assembly simulator made with JavaScript. You can add the necessary ingredients, delete the excess, and finally order.",
     url: 'https://sardoryuldashev.github.io/Gamburger/'
   },  
