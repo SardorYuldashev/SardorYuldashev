@@ -10,7 +10,7 @@ const frontend = [
     id: 101,
     image: 'burger_house.webp',
     title: 'Burger House',
-    technologies: "In this project I got acquainted with the Angular framework. The data comes from the backend. When you click on the currency button, all prices are converted.",
+    technologies: "In  this project I got acquainted with the Angular framework. The data comes from the backend. When you click on the currency button, all prices are converted.",
     url: 'https://sardoryuldashev.github.io/burgers/'
   },
   {
